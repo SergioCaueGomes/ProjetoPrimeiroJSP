@@ -12,20 +12,19 @@
 	<%! boolean formatar = true; %>
 	<%!
 		String today(){
-			java.text.SimpleDateFormat dt = new java.text.SimleDateFormat("yyyy-mm-dd hh:mm:ss");
+			java.text.SimpleDateFormat dt = new java.text.SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
 			return dt.format(new java.util.Date());
 		
 	} %>
 	
-		<h1> A data de hoje é: <%= new java.util.Date()  %> </h1>
-		<h1> A data de hoje é: <%= today() %> </h1>
+		<h1> A data de hoje é: <%= new java.util.Date()%> </h1>
+		<h1> A data de hoje é: <%= today()%> </h1>
 		<h1> A data de hoje é: <% 
 									if (formatar){
-										out.println(today())
+										out.println(today());
 									}else{
 										out.println(new java.util.Date());
-									}
-								%> </h1>
+									}%></h1>
 							
 </body>
 </html>
