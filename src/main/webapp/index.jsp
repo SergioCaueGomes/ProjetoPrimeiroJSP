@@ -31,11 +31,9 @@
 
 
 
-		<div class="container" style="text-align: center; width: 100%; border: 1px solid black;">
-			<div class="row">
-				<div class="col-12">
+		<
 				
-					<h1>Saiba se os segundos sao pares ou impares</h1>
+					<h1>Saiba se os segundos são pares ou impares</h1>
 					
 				
 
@@ -52,7 +50,7 @@
  						if (segundos()%2 == 0){
  							out.println(" Segundos sao pares");
  						}else{
- 							out.println(" Segundos sao impares");
+ 							out.println(" Segundos são impares");
  						}
  					%> </h1>
 
@@ -61,10 +59,6 @@
 						segundos() 	
  					%> </h1>
  									
-				</div>
-				
-			</div>
-		</div>
 					
 				
 		
